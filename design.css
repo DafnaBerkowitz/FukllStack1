@@ -49,26 +49,29 @@
 .animation_content{
     grid-area: c;
     height: 400px;
-
 }
 
-#image2 {
-    height: 400px;
-    position: absolute;
-    animation-name: image_move;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-
-}
-#image1{
+.image1{
     height: 400px;  
-    position: absolute;
-    animation-name: image_move;
+    width: 100%;
+    position: absolute;    
     animation-duration: 4s;
-    animation-delay: 500ms;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
 
-  
+}
+
+.image2 {
+    height: 400px;  
+    width: 100%;
+    position: absolute;  
+    animation-name: image_move;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
 }
 
 @keyframes image_move{
@@ -77,5 +80,35 @@
     to{transform: translateX(800px);}
     
 }
+
+
+/*
+.animation_content{
+    grid-area: c;
+    height: 400px;
+    width: 100%;
+    background-size: 100% 100%;    
+    background-image: url("image\1.jpeg");
+    animation: image_move ease-in-out 6s infinite;
+
+
+}
+    
+@keyframes image_move{
+    0%{
+        background-image: url("image\1.jpeg");
+    }
+
+    75%{
+        background-image: url("image\2.jpeg");
+    }
+
+    100%{
+        background-image: url("image\1.jpeg");
+    }
+      
+}
+  
+*/
 
 
