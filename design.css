@@ -1,28 +1,33 @@
+
 .grid_all{
+    font-family: Garamond, Verdana, sans-serif;
     height: 100%;
     display: grid;
     grid-template-areas:
     "h h h h h"
-    "m m c c c";
-    grid-gap: 2px;
+    "m c c c c";
     grid-template-rows: 200px 400px;
     
 
 }
 
-
 .header{
     display: grid;
     grid-area: h;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 1fr 3fr;
     background-color: #134374 ;
 }
 
 .header #image{
-    height: 150px;
-    width: 150px;
+    height: 200px;
 }
 
+.header #header {
+    color: white;
+    font-size: 60px;
+    align-self: center;
+
+}
 
 
 .menu_content{
@@ -30,11 +35,10 @@
     grid-area: m;
     grid-template-columns: auto auto;
     grid-template-rows: 1fr 1fr;
-    background-color: beige;
 
 }
 .button {
-    background: gray;
+    background: rgb(97, 175, 209);
     color: black;
     padding: 5px;
     margin: 4px 2px;
@@ -42,10 +46,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-
+}
+.menu_content a{
+    flex-direction: column;
 }
 
+.menu_content h2 {
+    font-size: 30px;
+}
+
+.menu_content .icon {
+    height: 60px;
+}
 .animation_content{
     grid-area: c;
     height: 400px;
@@ -77,7 +89,7 @@
 @keyframes image_move{
 
     from{transform: translateX(0px);}
-    to{transform: translateX(800px);}
+    to{transform: translateX(10px);}
     
 }
 
