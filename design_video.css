@@ -1,0 +1,38 @@
+.grid_all{
+    font-family: Garamond, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;   
+    background-color:aliceblue; 
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    background-image: linear-gradient(to left, #FFFFFF, #114374, #114374);
+}
+.header #image{
+    height: 200px;
+}
+
+
+.flex-grid{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-content:space-around;
+}
+
+
+.vd{
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    flex-basis:40%;
+}
+
+
+.lable{
+    text-align: center;
+}
