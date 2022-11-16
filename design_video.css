@@ -1,17 +1,14 @@
-.grid_all{
+body{
     font-family: Garamond, Verdana, sans-serif;
     height: 100%;
     width: 100%;   
     background-color:aliceblue; 
 }
 
-.header{
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    background-image: linear-gradient(to left, #FFFFFF, #114374, #114374);
-}
-.header #image{
-    height: 200px;
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 

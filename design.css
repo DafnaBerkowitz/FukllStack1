@@ -7,10 +7,10 @@
     grid-template-areas:
     "h h h h h"
     "m c c c c";
-    grid-template-rows: 200px 540px;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 540px;
     
-
+    
 }
 
 .header{
@@ -64,12 +64,15 @@
 .menu_content .icon {
     height: 60px;
 }
-.animation_content{
+
+.iframe_content{
     grid-area: c;
-    height: 400px;
+    height: 100%;
+    width: 100%;
+    
 }
 
-.image1{
+/*.image1{
     height: 400px;  
     width: 100%;
     position: absolute;    
@@ -98,6 +101,7 @@
     to{transform: translateX(10px);}
     
 }
+*/
 
 
 /*
