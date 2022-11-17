@@ -1,0 +1,40 @@
+body{
+    font-family: Garamond, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;   
+    background-color:aliceblue; 
+}
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.all_catalog{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-content:center;
+}
+
+
+.cl{
+
+}
+
+.ima{
+    width: 180px;
+    height: 250px;
+}
+
+
+h3,h4{
+    text-align: center;
+}
+
