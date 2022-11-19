@@ -1,3 +1,7 @@
+body{
+    height: auto;
+    width: auto;
+}
 
 .grid_all{
     font-family: Garamond, Verdana, sans-serif;
@@ -8,7 +12,7 @@
     "h h h h h"
     "m c c c c";
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 200px 540px;
+    grid-template-rows: 200px 500px;
     
     
 }
@@ -30,7 +34,6 @@
     align-self: center;
 
 }
-
 
 .menu_content{
     display: grid;
@@ -59,6 +62,7 @@
 
 .menu_content h2 {
     font-size: 30px;
+    text-align: center;
 }
 
 .menu_content .icon {
@@ -70,6 +74,13 @@
     height: 100%;
     width: 100%;
     
+}
+
+@media screen and (max-width: 900px) {
+    .menu_content{
+        grid-template-columns: auto;
+  }
+
 }
 
 /*.image1{

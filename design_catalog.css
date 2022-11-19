@@ -1,10 +1,10 @@
 body{
+    max-width: 1000px;
     font-family: Garamond, Verdana, sans-serif;
     height: 100%;
     width: 100%;   
     background-color:aliceblue; 
 }
-
 
 h1 {
     font-size: 50px;
@@ -12,20 +12,15 @@ h1 {
     padding-top: 20px;
 }
 
-
-.all_catalog{
-    max-width: 1000px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-    flex-wrap: wrap;
-    align-content:center;
+h3,h4{
+    text-align: center;
 }
 
-
-.cl{
-
+.all_catalog{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content:center;
 }
 
 .ima{
@@ -33,8 +28,15 @@ h1 {
     height: 250px;
 }
 
-
-h3,h4{
-    text-align: center;
+.cl {
+    width: 200px;
 }
+
+@media screen and (max-width: 500px){
+    .all_catalog{
+        flex-direction: column;
+    }
+}
+
+
 
