@@ -1,0 +1,36 @@
+body{
+    max-width: 800px;
+    font-family: Garamond, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;   
+    background-color:aliceblue; 
+
+}
+
+.lab{
+    font-size: large;
+    color: #114374;
+font-weight: bold;}
+  
+.form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+.ff{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.form-inline button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+  }
+.form-inline button:hover {
+    background-color: royalblue;
+  }
+  
