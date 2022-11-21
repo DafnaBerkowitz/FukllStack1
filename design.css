@@ -10,9 +10,10 @@ body{
     display: grid;
     grid-template-areas:
     "h h h h h"
+    "n n n n n"
     "m c c c c";
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 200px 500px;
+    grid-template-rows: 193px 47px 460px;
     
     
 }
@@ -22,6 +23,7 @@ body{
     grid-area: h;
     grid-template-columns: 1fr 4fr 1fr;
     background-image: linear-gradient(to left, #FFFFFF, #114374, #114374);
+
 }
 
 .header #image{
@@ -35,6 +37,19 @@ body{
 
 }
 
+.menubar{
+    grid-area: n;
+    display: grid;
+    grid-template-columns: 130px 130px auto;
+    grid-template-rows: 50px;
+    background-image: linear-gradient(to left, #FFFFFF, #114374, #114374);
+}
+.menubar .icon1{
+    height: 20px;
+    width: 20px;
+  }
+
+   
 .menu_content{
     display: grid;
     grid-area: m;
@@ -76,12 +91,17 @@ body{
     
 }
 
+
+
 @media screen and (max-width: 900px) {
     .menu_content{
         grid-template-columns: auto;
   }
 
 }
+
+
+   
 
 /*.image1{
     height: 400px;  
