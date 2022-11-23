@@ -1,3 +1,8 @@
+@font-face {
+  font-family: hebrowFont;
+  src: url("SEGOEUI.TTF");
+}
+
 body{
     max-width: 1000px;
     font-family: Garamond, Verdana, sans-serif;
@@ -44,5 +49,15 @@ h1 {
 
 .cl {
     width: 200px;
+
+}
+
+h3, h4 {
+    font-family: hebrowFont;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
 
 }
